@@ -1,0 +1,95 @@
+.container-taskbar{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.925);
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    z-index: 100
+}
+.leftpart-taskbar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.rightpart-taskbar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.windows-icon{
+    background: url('../assets/windows_icon.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 50px;
+}
+.icon-taskbar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.icon-taskbar:hover{
+    background-color: rgb(54, 54, 54);
+}
+.icon-taskbar > img {
+    height: 80%;
+    width: auto;
+    padding: 0 10px;
+}
+.container-current-task{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.panel-taskbar{
+    height: 60vh;
+    width: 30vw;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    z-index: 150;
+    background-color: red;
+}
+.search-icon-container{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-icon{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.container-date-taskbar{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+}
+.container-date-taskbar > p{
+    margin: 0;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.container-notification-taskbar{
+    /* width: 80px; */
+    height: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.container-item-notification{
+    height: 100%;
+    padding: 0 10px;
+
+    display: flex;
+    align-items: center;
+}

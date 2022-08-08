@@ -1,0 +1,43 @@
+.container-desktop{
+    background: url('../assets/wallpaper.jpg');
+    height: calc(100% - 50px );
+    width: 100%;
+}
+.grid-desktop{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.item-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+}
+.item-grid:focus{
+    background-color: rgba(255, 255, 255, 0.219);
+    border: 1px solid white;
+}
+.item-1{
+    grid-area: 1 / 1 / 2 / 2;
+    width: 100%;
+    height: 100%;
+}
+
+.shortcut-desktop{
+    width: 40%;
+    height: auto;
+}
+
+.item-grid > p {
+    font-size: 0.8rem;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+}
